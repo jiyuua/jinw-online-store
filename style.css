@@ -127,6 +127,12 @@ button:hover {
 }
 
 @media (max-width: 900px) {
+   .navbar li {
+      font-size: 15px;
+   }
+   .landing-div {
+      background-size: auto;
+   }
    .landing-info {
       flex-direction: column;
    }
@@ -153,5 +159,9 @@ button:hover {
 @media (max-width: 600px) {
    .shop-div {
       grid-template-columns: auto;
+   }
+
+   .box-flex p {
+      width: 300px;
    }
 }
